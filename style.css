@@ -82,6 +82,7 @@ header .container {
 }
 
 #fachada {
+  max-width: 600px;
   width: 400%;
   margin-right: 32px;
 }
