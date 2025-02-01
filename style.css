@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 525;
+  font-style: normal;
+  background-color: #CDC7C2;
+  color: #121107;
+}
+
+input, textarea {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 525;
+  font-style: normal;
+  color: #121107;
+}
+
+header {
+  padding: 16px;
+  background-color: #101F15;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1, section h2, section h3 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -2%;
+}
+
+input {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 525;
+  font-style: normal;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #CDC7C2;
+}
+
+section  h2 {
+  font-size: 56px;
+  line-height: 85%;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+header nav li a {
+  color: #CDC7C2;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fachada {
+  width: 400%;
+  margin-right: 32px;
+}
+
+section .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+section {
+  padding: 36px 0;
+}
+
+section h2 {
+  margin-bottom: 32px;
+}
+
+section p {
+  margin-bottom: 8px;
+  opacity: 85%;
+}
+
+.servicos {
+  margin: 32px auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.servicos .pratica {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+h3 {
+  text-align: center;
+  align-self: center;
+}
+
+.servicos img {
+  height: 72px;
+  align-self: center;
+}
+
+.titulo-servico {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  opacity: 100%;
+  color: #101F15;
+}
+
+.descricao-servico {
+  text-align: center;
+  text-wrap-style: stable;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+em {
+  font-weight: 700;
+  color: #2A480C;
+}
+
+#em-acao {
+  width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+.social-links img {
+  height: 32px;
+}
+
+#contato {
+  display: block;
+}
+
+#meios-contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#meios-contato div {
+  width: fit-contentv;
+}
+
+#contato h3 {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+#contato h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
+
+form label {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.social-links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+  justify-content: center;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+input[type=submit] {
+  background-color: #2A480C;
+  color: #CDC7C2;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #203808;
+  transition: ease-in-out 0.150s;
+}
+
+form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.social-links h4 {
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  outline-color: #2A480C;
+}
+
+footer {
+  padding: 16px 0;
+  background-color: #101F15;
+  color: #CDC7C2;
+  text-align: center;
+}
+
+#sobre-foto {
+    width: 400%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    object-position: 0% 10%;
+    margin-right: 32px;
+}
