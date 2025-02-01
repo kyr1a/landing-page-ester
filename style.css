@@ -185,6 +185,7 @@ em {
 #contato h4 {
   font-size: 20px;
   margin-bottom: 16px;
+  line-height: 100%;
 }
 
 form input, form textarea {
